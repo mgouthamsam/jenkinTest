@@ -19,7 +19,7 @@ public class PojoClass extends Baseclass {
 	@FindBy(name = "login")
 	private WebElement btnlogin;
 
-	@FindBy(xpath = "//a[text()='forgotten password?']")
+	@FindBy(xpath = "//a[text()='Forgotten password?']")
 	private WebElement btnfrgtpass;
 	
 	@FindBy(xpath="//input[@type='text']")
